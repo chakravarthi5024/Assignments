@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0%;
+    /* box-sizing: border-box; */
+}
+
+.background img{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.camel img{
+    height: 150px;
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    float: right;
+    margin-top: 80px;
+    margin-right: 200px;
+    font-size: 20px;
+    color: white;
+   
+}
+li{
+    list-style: none;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+nav{
+    position: relative;
+
+}
+
+.fa-solid {
+    color: white;
+}
+
+
+
+#box1
+{
+    background-image: url("./western desert.jpeg");
+    border: 1px solid black;
+    height: 220px;
+    width: 220px;
+    float: right;
+    margin-top: 210px;
+    margin-left: 790px;
+    border-radius: 20px;
+    position: absolute;  
+    transform: translateY("./western desert.jpeg");
+}
+#box2{
+    background-image: url("./ai\ bagawat.jpg");
+    border: 1px solid black;
+    height: 220px;
+    width: 220px;
+    
+    float: right;
+    margin-top: 210px;
+    margin-right: -340px;
+    border-radius: 20px;
+    position: relative;   
+   
+
+}
+
+#box3{
+    background-image: url("./pyramid.jpeg");
+    border: 1px solid black;
+    height: 220px;
+    width: 220px;
+    
+    float: right;
+    margin-top: 500px;
+    margin-left: 790px;
+    border-radius: 20px;
+    position: absolute;   
+   
+}
+#box4{
+    background-image: url("./kalahari\ desert.jpeg");
+    border: 1px solid black;
+    height: 220px;
+    width: 220px;
+    
+    float: right;
+    margin-top: 500px;
+    margin-right: -340px;
+    border-radius: 20px;
+    position: relative;  
+}
+
+
+#box1 img{
+    height: 220px;
+    width: 218px;
+    border-radius: 20px;
+}
+.text1{
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+}
+#box2 img{
+    height: 220px;
+    width: 218px;
+    border-radius: 20px;
+}
+#box3 img{
+    height: 220px;
+    width: 218px;
+    border-radius: 20px;
+
+}
+
+#box4 img{
+    height: 220px;
+    width: 218px;
+    border-radius: 20px;
+}
+
+.text2{
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+}
+
+
+.text3{
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+}
+.text4{
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+}
+
+.heading{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 150px;
+    font-size: 50px;
+    color: white;
+}
+
+p{
+    font-size: 20px;
+}
+.border{
+    border: 1px solid white;
+    padding: 10px 60px;
+    position: absolute;
+    margin-top: 630px;
+    margin-left: 210px;
+    border-radius: 35px;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+}
